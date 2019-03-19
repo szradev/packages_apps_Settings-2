@@ -22,4 +22,14 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslizar para captura de tela</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslizar 3 dedos para capturar a tela</string>
+
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de otimização</string>
+    <string name="thermal_control_per_app_default">Sem otimização</string>
+    <string name="thermal_control_per_app_benchmark">Performance</string>
+    <string name="thermal_control_per_app_games">Games</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Video playback</string>
+    <string name="thermal_control_per_app_dialer">Discador</string>
+    <string name="thermal_control_per_app_camera">Câmera</string>
 </resources>
