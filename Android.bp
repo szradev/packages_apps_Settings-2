@@ -65,6 +65,11 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+
+    resource_dirs: [
+        "res-aospk",
+        "res",
+    ],
 }
 
 platform_compat_config {
@@ -84,7 +89,6 @@ android_app {
         "settings-platform-compat-config",
     ],
     static_libs: ["Settings-core"],
-    resource_dirs: [],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
