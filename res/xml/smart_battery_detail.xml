@@ -42,19 +42,19 @@
         android:summary="@string/battery_auto_restriction_summary"
         settings:controller="com.android.settings.fuelgauge.AutoRestrictionPreferenceController"/>
 
-    <lineageos.preference.LineageGlobalSettingSwitchPreference
+    <com.aospk.settings.preference.GlobalSettingSwitchPreference
            android:key="aggressive_idle_enabled"
            android:title="@string/aggressive_idle_title"
            android:summary="@string/aggressive_idle_summary"
            android:defaultValue="true" />
 
-    <lineageos.preference.LineageGlobalSettingSwitchPreference
+    <com.aospk.settings.preference.GlobalSettingSwitchPreference
            android:key="aggressive_standby_enabled"
            android:title="@string/aggressive_standby_title"
            android:summary="@string/aggressive_standby_summary"
            android:defaultValue="true" />
 
-    <lineageos.preference.LineageSystemSettingSwitchPreference
+    <com.aospk.settings.preference.SystemSettingSwitchPreference
            android:key="sensor_block"
            android:title="@string/sensor_block_title"
            android:summary="@string/sensor_block_summary"
